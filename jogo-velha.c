@@ -1,8 +1,6 @@
 #include<stdio.h>
 
 void mostra(char jg[][3]){
-    //pq eu preciso informe as colunas?
-    // tem modo de fazer com for?
 printf(" %c | %c | %c \n", jg[0][0], jg[0][1], jg[0][2]);
     printf("---|---|---\n");
     printf(" %c | %c | %c \n", jg[1][0], jg[1][1], jg[1][2]);
@@ -81,7 +79,6 @@ int main(){
         {' ', ' ', ' '},
         {' ', ' ', ' '}
     };
-    //com o {0} ficava estranho no começo
 
     int conf = 0;
 
